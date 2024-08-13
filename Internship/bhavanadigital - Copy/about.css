@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Custom font family */
+}
+/*top header section*/
+#topheader{
+    text-align: right;
+    border-bottom: 1px solid #ebebeb;
+  
+}
+#topheader a{
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 0.89rem;
+}
+/*header section*/
+        /* Add spacing between icons and text */
+        .contact-link {
+            margin-right: 30px; /* Adjust as needed */
+            text-decoration: none; /* Remove underlines */
+        }
+        
+        .contact-link i {
+            font-size: 1.5rem; /* Adjust the font size as needed */
+        }
+        .custom{
+          padding-left: 20% !important;
+        }
+        
+    /* Logo styling */
+    .navbar-brand img {
+      width: 50px; /* Adjust as needed */
+      height: auto; /* Maintain aspect ratio */
+      margin-right: 10px; /* Add space between logo and text */
+    }
+
+    /* Light background color for navbar */
+    .navbar{
+      
+      background: linear-gradient(to right, lightgreen, rgb(225, 189, 225), rgb(232, 232, 197)); /* Use linear gradient with three colors */
+    }
+
+    /* Padding for right side of navbar */
+    .navbar-nav {
+      padding-right: 10%; /* 10% padding on the right end */
+    }
+
+    /* Spacing between navbar items */
+    .navbar-nav .nav-item {
+      margin-right: 10px; /* 5px spacing between navbar items */
+    }
+
+    /* Increase font size for navbar links */
+    .navbar-nav .nav-link {
+      font-size: 22px; /* Adjust font size as needed */
+    }
+    @keyframes fadeInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  #tagline {
+    animation: fadeInFromLeft 2s ease forwards;
+  }
+  .dropdown-menu {
+      background-color: #2ecc71; /* Background color for dropdown menu */
+    }
+    
+    .dropdown-item {
+      color: #ffffff; /* Text color for dropdown items */
+    }
+    /*for moving slides with the proper height and width*/
+    #carouselExampleAutoplaying {
+      height: 700px; /* Adjust height as needed for medium size */
+      width: 100%;
+    }
+      .carousel-item img{
+        height: 700px;
+        width: 100%;
+      }
+      .carousel-caption {
+         
+        margin-top: 800px;
+        
+      }
